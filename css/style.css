@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*****header-index*****/
+
+.h-one {
+    display: flex;
+    flex-direction: row;
+    background: rgba(4, 77, 77, 0.911);
+    width: 100%;
+    padding: .625rem;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #DDF2D8;
+}
+
+.m-desplegable {
+    display: none;
+}
+
+.navbar li:hover .m-desplegable {
+    display: block;
+}
+
+.navbar li:hover {
+    background-color: rgb(136, 136, 3);
+}
+.navbar {
+    list-style: none;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+}
+
+.m-desplegable li {
+    display: block;
+}
+
+.m-desplegable li a:hover {
+    background-color:rgb(120, 121, 109);
+}
+
+
+
+
+/*****main-index*****/
+
+.main1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 50rem;
+    background: rgba(4, 77, 77, 0.911);
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #DDF2D8;
+    font-family: Cormorant Unicase;
+    font-size: 202.612px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: #DDF2D8;
+    font-family: Cormorant Unicase;
+    font-size: 51.247px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50rem;
+    background-color: beige;
+}
+
+.logo {
+    display: flex;
+    flex-direction:column;
+    width: 18.75rem;
+    height: 18.75rem;
+}
+
+.lineas1 {
+    display: flex;
+    width: 15.625rem;
+    height: 15.625rem;
+}
+
+.lineas2 {
+    display: flex;
+    width: 15.625rem;
+    height: 15.625rem;
+}
+
+/*****header-contactos*****/
+
+.h-two {
+    display: flex;
+    flex-direction: row;
+    background: rgba(4, 77, 77, 0.911);
+    width: 100%;
+    padding: .625rem;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #DDF2D8;
+}
+
+
+/*****main-contactos*****/
+
+.fondo {
+    background-color: rgb(255, 255, 255);
+}
+
+.card {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 6.25rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25rem;
+    height: 28.125rem;
+    border-radius: 50px;
+    border: 5px solid #027373;
+    background: #d8f2e6d8;
+}
+
+.card div img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5rem;
+    height: 5rem;
+}
+
+.card div h1 {
+    display: flex;;
+    color: #000;
+    font-family: Cormorant Unicase;
+    font-size: 59.425px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;    
+}
+
+.card button {
+    display: flex;
+    width: 12.5rem;
+    height: 3.125rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 3.125rem;
+    border: 3px solid #027373;
+    align-items: center;
+    color: #000;
+    font-family: Forum;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card button a {
+    text-decoration: none;
+    margin-right: auto;
+}
+
+.card button img { 
+    width: 2.1875rem;
+    height: 2.1875rem;
+}
+
+/*****productos*****/
+
+.grid-conteiner {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 200px 1fr ;
+    grid-template-rows: 10% 1fr 15% ;
+    grid-template-areas: 
+    "encabezamiento encabezamiento"
+    "principal principal"
+    "pie pie"
+    ;
+}
+
+.h-three {
+    background: rgba(4, 77, 77, 0.911);
+    grid-area: encabezamiento;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: .9375rem;
+}
+
+.h-three img {
+    width: 11.25rem;
+    height: 2.1875rem;
+    color: #DDF2D8;
+    font-family: Cormorant Unicase;
+    font-size: 59.582px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.navbar1 {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.navbar1 li a {
+    text-decoration: none;
+    color: #DDF2D8;
+    overflow: auto;
+}
+
+.m-desplegable {
+    display: none;
+}
+
+.navbar1 li:hover .m-desplegable {
+    display: block
+}
+
+.navbar1 li:hover {
+    background-color: rgb(136, 136, 3);
+}
+
+.navbar1 li {
+    display: inline-block;
+}
+
+.navbar1 a {
+    text-decoration: none;
+    color: #333;
+}
+
+.m-desplegable li {
+    padding-top: .3125rem;
+    display: block;
+}
+
+.m-desplegable li a:hover {
+    background-color:rgb(120, 121, 109);
+}
+
+.m-three {
+    background: rgb(255, 255, 255);
+    grid-area: principal;
+    display: grid;
+}
+
+.f-three {
+    background: rgba(2, 115, 115, 0.30);
+    grid-area: pie;
+    margin-top: 1.5625rem;
+}
+
+/*****main-productos*****/
+
+.conteiner-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 1.5625rem;
+    margin-bottom: 1.5625rem;
+}
+
+.cards {
+    width: 10.625rem;;
+    height: 12.5rem;
+}
+
+.cards img {
+    width: 100%;
+    height: 95%;
+}
+
+.cards p {
+    text-align:center;
+}
+
+
+
